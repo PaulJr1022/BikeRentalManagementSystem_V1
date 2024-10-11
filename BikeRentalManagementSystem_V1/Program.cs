@@ -10,6 +10,7 @@ namespace BikeRentalManagementSystem_V1
     {
         static void Main(string[] args)
         {
+            
             BikeManager manager = new BikeManager();
             int respones = 0;
             do

@@ -1,0 +1,10 @@
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\BikeRentalManagementSystem_V1.csproj.AssemblyReference.cache
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\BikeRentalManagementSystem_V1.csproj.CoreCompileInputs.cache
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\BikeRentalManagementSystem_V1.exe.config
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\BikeRentalManagementSystem_V1.exe
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\BikeRentalManagementSystem_V1.pdb
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\BikeRent.849C96DE.Up2Date
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\BikeRentalManagementSystem_V1.exe
+C:\Users\Ut01185\Desktop\MileStone2\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\BikeRentalManagementSystem_V1.pdb

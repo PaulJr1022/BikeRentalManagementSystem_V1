@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace BikeRentalManagementSystem_V1
@@ -22,11 +23,33 @@ namespace BikeRentalManagementSystem_V1
             Console.Write("Enter Rental_Price : ");
             decimal price = decimal.Parse(Console.ReadLine());
 
-            var bikeInfo = BikeList.(Id, brand, model, price);
-            BikeList.Add(bikeInfo);
-        }
+            if (price < 0)
+            {
+                Console.Write("Price should be in positive");
+            }
+            else
+            {
+                //var bikeInfo = BikeList.(Id, brand, model, price);
+                //BikeList.Add(bikeInfo);
+            }
 
-        public void ReadBikes ()
+
+
+        }
+        //public void ValidateBikeRentalPrice()
+        //{
+        //    if (price < 0)
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+
+        //}
+
+        public void ReadBikes()
         {
             Console.Write("List All Bikes : ");
             foreach (Bike bike in BikeList)
@@ -38,7 +61,7 @@ namespace BikeRentalManagementSystem_V1
         public void UpdateBike()
         {
             Console.Write("Enter Bike Id for update Bike : ");
-            string id = Console.ReadLine ();
+            string id = Console.ReadLine();
             int count = 0;
 
             if (count > 0)
@@ -49,10 +72,10 @@ namespace BikeRentalManagementSystem_V1
                 }
             }
 
-            if (count == 0 )
+            if (count == 0)
             {
                 Console.Write("Invalid Id...");
-              
+
             }
             else
             {
@@ -68,12 +91,12 @@ namespace BikeRentalManagementSystem_V1
                 Console.Write("Enter Rental_Price : ");
                 decimal price = decimal.Parse(Console.ReadLine());
 
-                var BikeDtails = BikeList.Single(Bike p => p.)
+                //var BikeDtails = BikeList.Single(Bike p => p.id)
 
-                var bikeDetails = BikeList.(Id, brand, model, price);
-                BikeList.Remove(bikeDetails);
-                var bikeInfo = BikeList.(Id, brand, model, price);
-                BikeList.Add(bikeInfo);
+                //var bikeDetails = BikeList.(Id, brand, model, price);
+                //BikeList.Remove(bikeDetails);
+                //var bikeInfo = BikeList.(Id, brand, model, price);
+                //BikeList.Add(bikeInfo);
 
                 foreach (Bike bike in BikeList)
                 {
@@ -86,18 +109,30 @@ namespace BikeRentalManagementSystem_V1
         public void DeleteBike()
         {
             Console.Write("Enter Bike Id for delete bike : ");
-            string id = Console.ReadLine ();
+            string id = Console.ReadLine();
+            int count = 0;
 
-            if (id != null)
+            // if (Bike p => p.Id == id)
             {
-                var deleteBike = BikeList.Single(Bike(p=>p.));
-                BikeList.Remove (deleteBike);
+                foreach (Bike bike in BikeList)
+                {
+                    count++;
+                }
 
+            }
+
+            if (count == 0)
+            {
+                Console.WriteLine("Invalid Id");
             }
             else
             {
-                Console.Write("Invalid Id ");
+                //var bikes = BikeList.Single(Bike d => d.id);
+                //BikeList.Remove(bikes);
             }
+
         }
+
+
     }
 }

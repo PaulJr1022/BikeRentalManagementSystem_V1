@@ -17,16 +17,22 @@ namespace BikeRentalManagementSystem_V1
             MotorPower = motorPower;
         }
 
-        public void DisplayElectricBikeInfo()
-        {
-            var Info = new DisplayBikeInfo();
-            Console.WriteLine($"{Info}, batteryCapacity : {BatteryCapacity}, motorPower : {MotorPower} ");
-        }
+        //public void DisplayElectricBikeInfo()
+        //{
+        //    var Info = new DisplayBikeInfo();
+        //    Console.WriteLine($"{Info}, batteryCapacity : {BatteryCapacity}, motorPower : {MotorPower} ");
+        //}
 
-        public void DisplayBike()
+        //public void DisplayBikeInfo()
+        //{
+        //    var bikeInfo = base.DisplayBikeInfo();
+        //    Console.WriteLine($"{bikeInfo}, batteryCapacity : {BatteryCapacity}, motorPower : {MotorPower} ");
+        //} 
+        
+        public string DisplayBikeInfo()
         {
             var bikeInfo = base.DisplayBikeInfo();
-            Console.WriteLine($"{bikeInfo}, batteryCapacity : {BatteryCapacity}, motorPower : {MotorPower} ");
+            return($"{bikeInfo}, batteryCapacity : {BatteryCapacity}, motorPower : {MotorPower} ");
         }
     }
 }

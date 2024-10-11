@@ -17,16 +17,22 @@ namespace BikeRentalManagementSystem_V1
             FuelTankCapacity = fuelTankCapacity;
         }
 
-        public string DisplayPetrolBikeInfo()
-        {
-            var Info = new DisplayBikeInfo();
-            return($"{Info}, fuelTankCapacity : {FuelTankCapacity}, EngineCapacity : {EngineCapacity} ");
-        }
+        //public string DisplayPetrolBikeInfo()
+        //{
+        //    var Info = new DisplayBikeInfo();
+        //    return($"{Info}, fuelTankCapacity : {FuelTankCapacity}, EngineCapacity : {EngineCapacity} ");
+        //}
 
-        public void DisplayBike()
+        //public void DisplayBikeInfo()
+        //{
+        //    var bikeInfo = base.DisplayBikeInfo();
+        //    Console.WriteLine($"{bikeInfo}, fuelTankCapacity : {FuelTankCapacity}, EngineCapacity : {EngineCapacity} ");
+        //}
+
+        public string DisplayBikeInfo()
         {
             var bikeInfo = base.DisplayBikeInfo();
-            Console.WriteLine($"{bikeInfo}, fuelTankCapacity : {FuelTankCapacity}, EngineCapacity : {EngineCapacity} ");
+            return($"{bikeInfo}, fuelTankCapacity : {FuelTankCapacity}, EngineCapacity : {EngineCapacity} ");
         }
     }
 }
